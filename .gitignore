@@ -1,18 +1,23 @@
 
+UE4/.tgitconfig
+UE4/.ue4dependencies
+UE4/UE4.sln
+UE4/.vs/
 UE4/FeaturePacks/
 UE4/Samples/
 UE4/Templates/
-UE4/.tgitconfig
-UE4/.ue4dependencies
 UE4/Engine/Binaries/
 UE4/Engine/Build/
 UE4/Engine/Content/
 UE4/Engine/Documentation/
 UE4/Engine/Extras/
+UE4/Engine/Intermediate/
+UE4/Engine/Saved/
 UE4/Engine/Plugins/
 UE4/Engine/Programs/
 UE4/Engine/Shaders/
 UE4/Engine/Source/ThirdParty/
+UE4/Engine/Source/Programs/
 UE4/Engine/Source/**/*.png
 UE4/Engine/Source/**/*.psd
 UE4/Engine/Source/**/*.pdn
@@ -49,4 +54,8 @@ UE4/Engine/Source/**/*.ttf
 UE4/Engine/Source/**/*.obj
 UE4/Engine/Source/**/*.chf
 UE4/Engine/Source/**/*.zip
-
+UE4/Engine/Source/**/*.References
+UE4/Engine/Source/**/*.cache
+UE4/Engine/Source/**/*.txt
+UE4/Engine/Source/**/*.pdb
+UE4/Engine/Source/**/*.CopyComplete
