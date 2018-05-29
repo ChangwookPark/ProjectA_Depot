@@ -9,6 +9,7 @@ UE4/Templates/
 UE4/Engine/Binaries/
 UE4/Engine/Build/
 UE4/Engine/Content/
+UE4/Engine/DerivedDataCache/
 UE4/Engine/Documentation/
 UE4/Engine/Extras/
 UE4/Engine/Intermediate/
@@ -59,3 +60,6 @@ UE4/Engine/Source/**/*.cache
 UE4/Engine/Source/**/*.txt
 UE4/Engine/Source/**/*.pdb
 UE4/Engine/Source/**/*.CopyComplete
+
+ProjectA/.vs/
+ProjectA/Intermediate/

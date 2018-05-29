@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2B0D95CB-48A3-67BE-022E-A1B65F832394}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ProjectA",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
