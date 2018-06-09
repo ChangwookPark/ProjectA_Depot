@@ -1,0 +1,3 @@
+1. Git에서 프로젝트 전부 받은 뒤 Setup.bat 파일 실행하여 엔진 설치
+2. ProjectA -> ProjectA.uproject 우클릭 후 Generate Visual ... 실행하여 솔루션파일 생성
+3. 생성된 솔루션 파일 빌드하여 프로젝트 실행
