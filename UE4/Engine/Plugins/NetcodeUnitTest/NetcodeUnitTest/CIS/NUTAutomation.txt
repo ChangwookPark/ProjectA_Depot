@@ -1,1 +1,0 @@
--ExecCmds="automation quit, automation runtests IPClient"
