@@ -1,13 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{2B0D95CB-48A3-67BE-022E-A1B65F832394}",
+	"EngineAssociation": "{A189D9F4-4539-F323-9222-10A07B155570}",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "ProjectA",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+  "Modules": [
+    {
+      "Name": "ProjectA",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ProjectAEditor",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
 }

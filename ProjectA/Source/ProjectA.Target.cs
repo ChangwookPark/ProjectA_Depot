@@ -10,5 +10,10 @@ public class ProjectATarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "ProjectA" } );
-	}
+
+        if (Type == TargetType.Editor)
+        {
+            ExtraModuleNames.AddRange(new string[] { "ProjectAEditor" });
+        }
+    }
 }

@@ -1,0 +1,24 @@
+기본적으로 언리얼 엔진의 코딩 규칙을 사용한다.
+
+1.접두어
+
+UObject 상속 클래스 U**
+Actor 상속 클래스 A**
+Slate 상속 클래스 S**
+Interface 상속 클래스 I**
+Enum -> E
+클래스의 멤버 변수 m**
+
+2. 함수의 Argument에 In Out을 사용하여 보기만해도 가독성이 좋게 작성할 것.
+ex) void Add(int InNumber, int& OutNumber);
+
+3. 자료구조 및 자료형은 언리얼의 자료구조만 이용한다.(STL, Boost 등 다른 라이브러리 자료구조는 사용하지 않음.)
+자료형의 경우 int32,int64 로 쪼개져있으므로 상황에 맞는 변수 사용 할 것. float이나 double은
+기본 자료형밖에 없으므로 그냥 사용.
+자료구조는 TArray,TMap,TQueue,TMultiMap 등 언리얼에서 제공하는 자료구조만으로도 충분히 작업이 가능하므로 
+언리얼의 자료구조로 모두 해결
+
+
+
+
+

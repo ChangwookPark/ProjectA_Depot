@@ -3,3 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UnrealEd.h"
+
+DECLARE_LOG_CATEGORY_EXTERN(ProjectAEditor, All, All)
